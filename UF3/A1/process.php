@@ -39,7 +39,7 @@ elseif (isset($_POST["method"]) && $_POST["method"] == "signup") {
         $status = "signin_email_error";
     } elseif ($data == "" || $data === false) { // Si l'email no existeix
 
-        obtenirUsuari($_POST["email"], $_POST["password"], $_POST["name"]);
+        escriureUsuari($_POST["email"], $_POST["password"], $_POST["name"]);
 
         $status = "signup_success";
         $user_data = $data[$user_email];
