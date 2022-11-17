@@ -21,7 +21,9 @@ if(!isset($_SESSION["user"]) || time()-$_SESSION["user"]["login_time_stamp"] >60
     <div class="welcome-container">
         <h1>Benvingut!</h1>
         <div>Hola <?php if(isset($_SESSION["nomUsuari"])) { echo $_SESSION["nomUsuari"]; } ?>, les teves darreres connexions són:</div>
-        <div class="connections"><?php if(isset($_SESSION["nomUsuari"])) { echo(print_conns($_SESSION["emailUsuari"])); } ?>
+        <div class="connections"><?php if(isset($_SESSION["nomUsuari"])) { 
+            echo(print_conns($_SESSION["emailUsuari"])); 
+        } ?>
     </div>
         <form action="process.php" method="post">
             <input type="hidden" name="method" value="logoff"/>
