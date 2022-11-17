@@ -3,7 +3,7 @@
  * Dades i String Connexió
  */
 try {
-    $hostname = "localhost";
+    $hostname = "172.24.200.100";
     $dbname = "dwes-guillembarris-autpdo";
     $usuariname = "dwes-user";
     $pw = "dwes-pass";
