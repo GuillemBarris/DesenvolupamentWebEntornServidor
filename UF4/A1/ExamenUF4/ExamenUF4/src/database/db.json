@@ -1,0 +1,18 @@
+{
+    "User": {
+        "id": "3245678902kfejw",
+        "username": "johndoe",
+        "fullname": "John Doe",
+        "CreatedAt": "2015-01-01T00:00:00Z",
+        "UpdatedAt": "2015-01-01T00:00:00Z"
+    },
+    "Task": {
+        "id": "3245678902kfad",
+        "user": "3245678902kfejw",
+        "title": "My first task",
+        "description": "This is my first task",
+        "status": "do",
+        "CreatedAt": "2015-01-01T00:00:00Z",
+        "UpdatedAt": "2015-01-01T00:00:00Z"
+    }
+}
